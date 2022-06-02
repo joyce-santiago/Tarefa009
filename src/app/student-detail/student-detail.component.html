@@ -1,0 +1,16 @@
+<div *ngIf = "student" class="info-students">
+      <h2>{{student.nome | uppercase}} - Detalhes</h2>
+      <div style="margin-bottom: 2px;"><span>ID: </span>{{student.id}}</div>
+
+      <label for="student-name">Nome: </label>
+      <input id="student-name" [(ngModel)]="student.nome" placeholder="Nome"><br>
+
+      <label for="student-nome">Curso: </label>
+      <input id="student-nome" [(ngModel)]="student.nacionalidade" placeholder="Nacionalidade"><br>
+    
+      <label for="student-nome">Semestre: </label>
+      <input id="student-nome" [(ngModel)]="student.ensino" placeholder="Ensino"><br>
+    
+      <label for="student-nome">Turno: </label>
+      <input id="student-nome" [(ngModel)]="student.periodo" placeholder="Perido"><br>
+</div>

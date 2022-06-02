@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400;1,500&display=swap');
+
+.container {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  margin-top: 30px;        
+}
+
+.form-students {
+  margin: 0 auto;
+  width: 40em;
+  background-color: #B0C1D9;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0 , .212);
+}
+
+.title {
+  background-color: #30588C;
+  width: 92.8%;
+  height: 1em;
+  padding: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.list-students {
+  margin: 0 auto;
+  padding: 1em;
+  background-color: #4A95D4;
+  margin-bottom: 20px;
+  width: 30em;
+  height: 2.6em;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px #0000001c;
+}  
+
+img, p {
+  display: inline-block;
+}
+
+.list-students img {
+  width: 35px;
+  height: 35px;
+  float: left;
+  margin-top: 4px;
+}
+
+.student-nome {
+  font-size: 1em;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+
+.student-curso {
+  margin-left: 10px;
+  font-style: italic;
+  margin-left: 10px;
+  margin-top: -40px;
+}
+
+.button-edit {
+  float: right;
+  margin-top: -60px;
+  border: none;
+  background-color: #4A95D4;
+  cursor: pointer;
+}

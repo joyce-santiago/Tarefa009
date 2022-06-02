@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="form-students">
+    <h2 class="title">Cadastro de Estudante</h2>
+      <div *ngFor="let student of students" class="list-students">
+        <img src="assets/icon.png">
+        <p class="student-nome">{{student.nome}}</p><br>
+        <p class="student-curso">{{student.nacionalidade}}</p><br>
+        <button [class.selected]="student === selectedStudent" type="button" (click)="onSelect(student)" class="button-edit">   
+          <img src="assets/edit.svg">
+        </button>
+      </div>
+      <div class="info-students">
+        <app-student-detail [student]="selectedStudent"></app-student-detail>
+      </div>
+      <br>
+  </div>
+</div>
+          
+      
+
+
+
+
+
+
+
+
+
+
+
+
