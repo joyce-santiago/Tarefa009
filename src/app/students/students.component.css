@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.container {
+  width: 23.6em;
+  max-height: 70em;
+  display: flex;
+  background-color: #a38df3a1;
+}
+
+.card-students h2 {
+  width: 22em;
+  height: 3em;
+  background-color: #652AAD;
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+
+.students li {
+  display: flex;
+}
+
+.students button {
+  flex: 0.2em;
+  cursor: pointer;
+  background-color: #B5A1FF;
+  margin: .5em;
+  display: flex;
+  align-items: center;
+  height: 1.8em;
+  border: none;
+  margin-bottom: 1.5em;
+  box-shadow: 1px 1px 6px #0000001c;
+}
+
+.students button:hover {
+  background-color: #BD8BD1;
+  left: .1em;
+}
+
+.produtos button:active {
+  background-color: #012E40;
+}
+
+.students button.selected {
+  background-color: #8336E0;
+}
+
+.students button.selected:hover {
+  background-color: #BD8BD1;
+}
+
+.produtos button.selected:active {
+  background-color: black;
+}
+
+.students .name {
+  font-weight: 500;
+}
+
+.students .badge {
+  display: inline-block;
+  font-size: small;
+  font-weight: 600;
+  padding: 0.5em 0.9em;
+  background-color: #634DB3;
+  line-height: 1em;
+  margin-right: .8em;
+}

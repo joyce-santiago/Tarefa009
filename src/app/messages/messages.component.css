@@ -1,0 +1,20 @@
+.mat-expansion-panel {
+  width: 23.7em;
+  max-height: 1000px;
+  background-color: #652AAD;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0 , .212);
+  color: white;
+  margin-top: 20px;
+}
+
+.clear {
+    border: none;
+    background-color: #E3342B;
+    margin-bottom: 12px;
+    padding: 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}

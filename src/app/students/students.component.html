@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="card-students">
+  <h2>Cadastro de Estudantes</h2>
+  <ul class="students">
+    <li *ngFor="let student of students">
+      <button [class.selected]="student === selectedStudent" type="button" (click)="onSelect(student)">
+        <span class="badge">{{student.id}}</span>
+        <span class="name">{{student.nome}}</span>
+      </button>
+    </li>
+  </ul>
+  <br>
+  <app-student-detail [student]="selectedStudent"></app-student-detail>
+</div>   
+      
+
+
+
+
+
+
+
+
+
+
+
+
